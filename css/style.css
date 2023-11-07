@@ -1,0 +1,58 @@
+form {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+input {
+    margin: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 45, 128);
+    color: white;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+button {
+    margin: 20px 0;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(0, 45, 128);
+    color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid blue;
+
+}
+
+select {
+    height: 20px;
+    margin: 20px;
+    background-color: rgb(0, 45, 128);
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: #fff;
+
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    color: blue;
+}
+
+iframe {
+    border: 2px solid blue;
+}
+
+body {
+    background-color: black;
+}
